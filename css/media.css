@@ -35,6 +35,10 @@
     .main .left {
         margin-bottom: 45px;
     }
+
+    .info .cards {
+        margin-top: 20px;
+    }
 }
 
 /* 768 */
@@ -45,6 +49,17 @@
 
     .main .right img {
         width: 100%;
+    }
+
+    .info .cards {
+        flex: 1 1 100%;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: auto;
+        padding: 50px;
+        gap: 30px;
+        align-items: flex-start;
     }
 }
 

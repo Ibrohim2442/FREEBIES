@@ -22,10 +22,6 @@ body {
 }
 
 /* Header -----------> */
-.header {
-    cursor: pointer;
-}
-
 .header .container {
     display: flex;
     align-items: center;
@@ -53,6 +49,7 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
+    cursor: pointer;
 }
 
 .header .registration .sign-in{
@@ -76,6 +73,7 @@ body {
     border: 1px solid #F53855;
     border-radius: 50px;
     background: #fff;
+    cursor: pointer;
     transition: all 0.3s ease; /* Barcha o‘zgarishlarni silliq qiladi */
 }
 
@@ -132,4 +130,53 @@ body {
 .main .left .get-started:hover {
     transform: translateY(-3px); /* Optional: Lift on hover */
     box-shadow: 0 15px 25px rgba(245, 56, 56, 0.6); /* Darker shadow on hover */
+}
+
+/* Info -------------> */
+.info .cards {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    border: none;
+    background-color: white;
+    border-radius: 10px; /* Adjust as needed */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.info .card {
+    position: relative;
+    display: flex;
+    gap: 35px;
+}
+
+.info .card img {
+    width: 55px;
+    height: 55px;
+}
+
+.info .card .text span {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0B132A;
+}
+
+.info .card .text p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F5665;
+}
+/* .info .card:not(:last-child)::after */
+ .test{
+    content: '';
+    position: absolute;
+    width: 1px; /* Adjust width as needed */
+    height: 125px; /* Adjust height as needed */
+    background: #EEEFF2;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+    right: -30px; /* Adjust spacing as needed */
 }
