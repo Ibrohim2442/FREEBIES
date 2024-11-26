@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    display: inline-block;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    /* padding: 0 15px; */
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+/* Header -----------> */
+.header {
+    cursor: pointer;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.header .menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header .menu .link {
+    font-size: 16px;
+    color: #4F5665;
+    transition: color 0.3s ease; /* Silliq rang o‘zgarishi */
+}
+
+.header .menu .link:hover {
+    color: #F53855; /* Hover paytida qizil rangga o‘tadi */
+}
+
+.header .registration {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .registration .sign-in{
+    font-size: 16px;
+    font-weight: 500;
+    color: #0B132A;
+    transition: color 0.3s ease; /* Silliq rang o‘zgarishi */
+}
+
+.header .registration .sign-in:hover {
+    color: #F53855; /* Hover paytida rang o‘zgarishi */
+}
+
+.header .registration .sign-up {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    width: 150px;
+    height: 45px;
+    color: #F53855;
+    border: 1px solid #F53855;
+    border-radius: 50px;
+    background: #fff;
+    transition: all 0.3s ease; /* Barcha o‘zgarishlarni silliq qiladi */
+}
+
+.header .registration .sign-up:hover {
+    background: #F53855; /* Tugma orqa fonini qizil rangga o‘zgartiradi */
+    color: #fff; /* Matnni oq rangga o‘zgartiradi */
+    box-shadow: 0 5px 15px rgba(245, 56, 85, 0.3); /* Animatsiya uchun soyani qo‘shadi */
+}
+
+/* Main --------> */
+.main .container {
+    display: flex;
+    padding: 90px 0;
+}
+
+.main .left h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    color: #0B132A;
+}
+
+.main .left span {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.main .left p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.main .left .get-started {
+    margin-top: 50px;
+    width: 250px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background: #F53838;
+
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 25px;
+    color: #ffffff;
+
+    box-shadow: 0 10px 20px rgba(245, 56, 56, 0.4); /* Add shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth animation for hover effect */
+}
+
+.main .left .get-started:hover {
+    transform: translateY(-3px); /* Optional: Lift on hover */
+    box-shadow: 0 15px 25px rgba(245, 56, 56, 0.6); /* Darker shadow on hover */
+}
