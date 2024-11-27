@@ -15,6 +15,7 @@ a {
     max-width: 1200px;
     /* padding: 0 15px; */
     margin: 0 auto;
+    padding: 0 25px;
 }
 
 body {
@@ -26,7 +27,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 0;
+    padding: 50px 25px;
 }
 
 .header .menu {
@@ -86,7 +87,7 @@ body {
 /* Main --------> */
 .main .container {
     display: flex;
-    padding: 90px 0;
+    padding: 90px 25px;
 }
 
 .main .left h1 {
@@ -362,4 +363,55 @@ body {
     background: #F53855; /* Tugma orqa fonini qizil rangga o‘zgartiradi */
     color: #fff; /* Matnni oq rangga o‘zgartiradi */
     box-shadow: 0 5px 15px rgba(245, 56, 85, 0.3); /* Animatsiya uchun soyani qo‘shadi */
+}
+
+/* Network ------------------------> */
+.network {
+    background: #FBFBFB;
+}
+
+.network .container {
+    padding-top: 150px;
+}
+
+.network .text {
+    text-align: center;
+    margin-bottom: 155px;
+}
+
+.network .text h1 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+    margin-bottom: 20px;
+}
+
+.network .text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.network .text span {
+    font-weight: 500;
+}
+
+.network img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 35px;
+}
+
+.network .brands {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+}
+
+.network .brands img {
+    width: auto;
+    height: auto;
 }

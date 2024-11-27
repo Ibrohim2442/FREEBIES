@@ -27,7 +27,7 @@
 
     .main .container {
         display: block;
-        padding: 10px 0;
+        padding: 10px 25px;
     }
 
     .main .left .get-started {
@@ -91,6 +91,21 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+    }
+
+    .network .brands {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .network .container {
+        padding-top: 100px;
+    }
+
+    .network .text {
+        margin-bottom: 100px;
     }
 }
 
