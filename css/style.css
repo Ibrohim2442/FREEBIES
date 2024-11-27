@@ -180,3 +180,48 @@ body {
     transform: translateY(-50%); /* Adjust for vertical centering */
     right: -30px; /* Adjust spacing as needed */
 }
+
+/* Features ----------------------> */
+.features {
+    margin-top: 95px;
+}
+
+.features .container {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
+
+.features .right h1{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+    margin-bottom: 20px;
+}
+
+.features .right p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    margin-bottom: 20px;
+}
+
+.feature-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; /* Add spacing between items */
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.feature-list li::before {
+    content: '\2713'; /* Unicode for checkmark */
+    color: #28a745; /* Green color for the checkmark */
+    font-weight: bold;
+    margin-right: 10px; /* Space between checkmark and text */
+    font-size: 1.2em; /* Adjust size of the checkmark */
+}

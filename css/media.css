@@ -5,6 +5,8 @@
     }
 }
 
+
+
 /* 1024 */
 @media (max-width: 1024px) {
     .container {
@@ -39,6 +41,20 @@
     .info .cards {
         margin-top: 20px;
     }
+
+    .features {
+        margin-top: 50px;
+    }
+
+    .features .container {
+        display: block;
+        gap: 150px;
+        align-items: center;
+    }
+
+    .features .left {
+        margin-bottom: 45px;
+    }
 }
 
 /* 768 */
@@ -60,6 +76,10 @@
         padding: 50px;
         gap: 30px;
         align-items: flex-start;
+    }
+
+    .features .left img{
+        width: 100%;
     }
 }
 
