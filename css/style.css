@@ -15,7 +15,7 @@ a {
     max-width: 1200px;
     /* padding: 0 15px; */
     margin: 0 auto;
-    padding: 0 25px;
+    padding: 0 10px;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 25px;
+    padding: 50px 10px;
 }
 
 .header .menu {
@@ -87,7 +87,7 @@ body {
 /* Main --------> */
 .main .container {
     display: flex;
-    padding: 90px 25px;
+    padding: 90px 10px;
 }
 
 .main .left h1 {
