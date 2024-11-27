@@ -224,7 +224,7 @@ body {
     color: #F53855; /* Change text color on hover */
 }
 
-.feature-list li::before {
+.feature-list li img {
     content: '\2713'; /* Unicode for checkmark */
     color: #28a745; /* Green color for the checkmark */
     font-weight: bold;
@@ -233,7 +233,7 @@ body {
     transition: transform 0.3s ease, color 0.3s ease; /* Smooth animations for transform and color */
 }
 
-.feature-list li:hover::before {
+.feature-list li img:hover {
     color: #F53855; /* Change checkmark color on hover */
     transform: scale(1.3); /* Slightly enlarge the checkmark on hover */
 }
@@ -301,10 +301,14 @@ body {
 }
 
 .plan-list {
+    display: flex;
+    justify-content: center;
+    text-align: left;
     margin-bottom: 130px;
 }
 
 .plan-list li {
+    cursor: pointer;
     margin-bottom: 10px; /* Add spacing between items */
     font-family: "Rubik", sans-serif;
     font-size: 16px;
@@ -329,7 +333,7 @@ body {
 
 .plan-list li:hover::before {
     color: #F53855; /* Change checkmark color on hover */
-    transform: scale(1.3); /* Slightly enlarge the checkmark on hover */
+    transform: scale(1.3); /* Slightly enlarge the checkmark on hover */    
 }
 
 .choose-plan .plans .plan h2 {

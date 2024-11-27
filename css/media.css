@@ -98,5 +98,14 @@
 @media (max-width: 425px) {
     .container {
         max-width: 100%;
+        padding: 10px;
+    }
+
+    .header .container {
+        padding: 50px 10px;
+    }
+
+    .main .container {
+        padding: 90px 10px;
     }
 }
