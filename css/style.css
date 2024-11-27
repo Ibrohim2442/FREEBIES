@@ -184,6 +184,7 @@ body {
 /* Features ----------------------> */
 .features {
     margin-top: 95px;
+    margin-bottom: 130px;
 }
 
 .features .container {
@@ -212,10 +213,15 @@ body {
     align-items: center;
     margin-bottom: 15px; /* Add spacing between items */
     font-family: "Rubik", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 30px;
     color: #4F5665;
+    transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+.feature-list li:hover {
+    color: #F53855; /* Change text color on hover */
 }
 
 .feature-list li::before {
@@ -224,4 +230,132 @@ body {
     font-weight: bold;
     margin-right: 10px; /* Space between checkmark and text */
     font-size: 1.2em; /* Adjust size of the checkmark */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth animations for transform and color */
+}
+
+.feature-list li:hover::before {
+    color: #F53855; /* Change checkmark color on hover */
+    transform: scale(1.3); /* Slightly enlarge the checkmark on hover */
+}
+
+/* Choose-plan ----------------> */
+.choose-plan {
+    background: #FBFBFB;
+    padding: 80px 0 0 0;
+}
+
+.choose-plan .text {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.choose-plan .text h1 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+    margin-bottom: 20px;
+}
+
+.choose-plan .text p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.choose-plan .plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.choose-plan .plans .plan {
+    width: 330px;
+    height: auto;
+    padding: 80px 0 50px 0;
+    background-color: #fff; /* Белый фон */
+    text-align: center; /* Центрируем текст */
+    border: 3px solid #DDDDDD;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Мягкая тень */
+    transition: border 0.3s, transform 0.3s; /* Анимация при наведении */
+}
+
+.choose-plan .plans .plan:hover {
+    border: 2px solid #F53855;
+    transform: scale(1.05); /* Легкое увеличение */
+}
+
+.choose-plan .plans .plan img {
+    width: 145px;
+    height: 165px;
+    margin-bottom: 30px;
+}
+
+.choose-plan .plans .plan h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B132A;
+    margin-bottom: 30px;
+}
+
+.plan-list {
+    margin-bottom: 130px;
+}
+
+.plan-list li {
+    margin-bottom: 10px; /* Add spacing between items */
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4F5665;
+    transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+.plan-list li:hover {
+    color: #F53855; /* Change text color on hover */
+}
+
+.plan-list li::before {
+    content: '\2713'; /* Unicode for checkmark */
+    color: #28a745; /* Green color for the checkmark */
+    font-weight: bold;
+    margin-right: 10px; /* Space between checkmark and text */
+    font-size: 1.2em; /* Adjust size of the checkmark */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth animations for transform and color */
+}
+
+.plan-list li:hover::before {
+    color: #F53855; /* Change checkmark color on hover */
+    transform: scale(1.3); /* Slightly enlarge the checkmark on hover */
+}
+
+.choose-plan .plans .plan h2 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0B132A;
+    margin-bottom: 20px;
+}
+
+.choose-plan .plans .plan .select {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    width: 180px;
+    height: 45px;
+    color: #F53855;
+    border: 1px solid #F53855;
+    border-radius: 50px;
+    background: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Barcha o‘zgarishlarni silliq qiladi */
+}
+
+.choose-plan .plans .plan .select:hover {
+    background: #F53855; /* Tugma orqa fonini qizil rangga o‘zgartiradi */
+    color: #fff; /* Matnni oq rangga o‘zgartiradi */
+    box-shadow: 0 5px 15px rgba(245, 56, 85, 0.3); /* Animatsiya uchun soyani qo‘shadi */
 }

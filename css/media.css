@@ -55,6 +55,9 @@
     .features .left {
         margin-bottom: 45px;
     }
+    .choose-plan .plans {
+        gap: 15px;
+    }
 }
 
 /* 768 */
@@ -80,6 +83,14 @@
 
     .features .left img{
         width: 100%;
+    }
+
+    .choose-plan .plans {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 }
 
