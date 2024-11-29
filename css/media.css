@@ -58,6 +58,10 @@
     .choose-plan .plans {
         gap: 15px;
     }
+
+    .advertisement .container {
+        display: none;
+    }
 }
 
 /* 768 */

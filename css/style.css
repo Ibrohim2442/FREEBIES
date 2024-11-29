@@ -15,10 +15,18 @@ a {
     max-width: 1200px;
     /* padding: 0 15px; */
     margin: 0 auto;
+    /* padding: 0 10px; */
 }
 
 body {
     font-family: "Rubik", sans-serif;
+    background-color: #FBFBFB;
+}
+
+.header,
+.main,
+.info {
+    background-color: #ffffff;
 }
 
 /* Header -----------> */
@@ -413,4 +421,170 @@ body {
 .network .brands img {
     width: auto;
     height: auto;
+}
+
+.position {
+    position: relative;
+    margin-top: 5%;
+}
+
+/* Advertisement ---------------------> */
+.advertisement {
+    position: absolute;
+    top: -25%;
+    width: 100%;
+    /* background: #FBFBFB; */
+}
+
+.advertisement .container {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 58px 70px 58px 70px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.advertisement .text {
+    width: 360px;
+}
+
+.advertisement .text h1 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    color: #0B132A;
+    margin-bottom: 20px;
+}
+
+.advertisement .text p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.subscribe-btn {
+    width: 250px;
+    height: 60px;
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 15px 30px rgba(255, 76, 76, 0.5); /* глубокая тень для кнопки */
+}
+
+.subscribe-btn:hover {
+    background-color: #e63939;
+    box-shadow: 0 20px 40px rgba(255, 76, 76, 0.6); /* более сильная тень на hover */
+    transform: scale(1.05);
+}
+
+.subscribe-btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 10px 20px rgba(255, 76, 76, 0.4); /* уменьшенная тень при нажатии */
+}
+
+/* Footer ------------------------------------> */
+
+.footer {
+    background-color: #F8F8F8;
+    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.1); /* Лёгкая тень сверху */
+    padding-top: 180px;
+    padding-bottom: 100px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-brand {
+    max-width: 340px;
+}
+
+.footer-logo {
+    width: 150px;
+    height: 36px;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    margin-bottom: 30px;
+}
+
+.footer-description span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.footer-socials {
+    margin-bottom: 30px;
+}
+
+.footer-socials a {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.footer-socials img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-copyright {
+    font-size: 16px;
+    line-height: 30px;
+    color: #AFB5C0;
+}
+
+.footer-copyright span {
+    font-weight: 500;
+}
+
+.footer-links h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B132A;
+    margin-bottom: 20px;
+}
+
+.footer-links ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #ff4c4c;
+}
+
+/* Review -------------------------> */
+
+.review {
+    background: #FBFBFB;
 }
